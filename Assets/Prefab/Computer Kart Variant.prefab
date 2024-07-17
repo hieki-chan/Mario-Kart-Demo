@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8994027689425169183
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 951716449570180847, guid: 3139ca37203b8314ab4ff1c9c9c3e061, type: 3}
+      propertyPath: m_Name
+      value: Computer Kart Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1235772669523651583, guid: 3139ca37203b8314ab4ff1c9c9c3e061, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f5e6c1baee9e0b6479182b816c785fb8, type: 2}
+    - target: {fileID: 3361326797658188126, guid: 3139ca37203b8314ab4ff1c9c9c3e061, type: 3}
+      propertyPath: inputHandler
+      value: 
+      objectReference: {fileID: 5331321236632462349}
+    - target: {fileID: 6431942781947460175, guid: 3139ca37203b8314ab4ff1c9c9c3e061, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 169.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6431942781947460175, guid: 3139ca37203b8314ab4ff1c9c9c3e061, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -36.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6431942781947460175, guid: 3139ca37203b8314ab4ff1c9c9c3e061, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 257.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6431942781947460175, guid: 3139ca37203b8314ab4ff1c9c9c3e061, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6431942781947460175, guid: 3139ca37203b8314ab4ff1c9c9c3e061, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6431942781947460175, guid: 3139ca37203b8314ab4ff1c9c9c3e061, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6431942781947460175, guid: 3139ca37203b8314ab4ff1c9c9c3e061, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6431942781947460175, guid: 3139ca37203b8314ab4ff1c9c9c3e061, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6431942781947460175, guid: 3139ca37203b8314ab4ff1c9c9c3e061, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6431942781947460175, guid: 3139ca37203b8314ab4ff1c9c9c3e061, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7812875476659675411, guid: 3139ca37203b8314ab4ff1c9c9c3e061, type: 3}
+    - {fileID: 2045290713067706686, guid: 3139ca37203b8314ab4ff1c9c9c3e061, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 951716449570180847, guid: 3139ca37203b8314ab4ff1c9c9c3e061, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5331321236632462349}
+  m_SourcePrefab: {fileID: 100100000, guid: 3139ca37203b8314ab4ff1c9c9c3e061, type: 3}
+--- !u!114 &3970029064272517590 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5460989351255503561, guid: 3139ca37203b8314ab4ff1c9c9c3e061, type: 3}
+  m_PrefabInstance: {fileID: 8994027689425169183}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8206712555153925616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 940f40b08e0489646b5a499a1d562a8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &8206712555153925616 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 951716449570180847, guid: 3139ca37203b8314ab4ff1c9c9c3e061, type: 3}
+  m_PrefabInstance: {fileID: 8994027689425169183}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5331321236632462349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8206712555153925616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 270bf96b3084d4b46af1b03f085dcdb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnThrowItem:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3970029064272517590}
+        m_TargetAssemblyTypeName: KartDemo.Controllers.ItemManager, Assembly-CSharp
+        m_MethodName: ThrowItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  currentPoint: 0
+  input: {x: 0, y: 0}
+  shouldDrift: 0
+  rayDist: 45
+  textColor: {r: 0, g: 0, b: 1, a: 1}
