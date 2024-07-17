@@ -6,6 +6,7 @@ Here are some images:
   <tr>
     <td align="center">
       <img src="Images/go.png" alt="Image 1" />
+      <!--<i><figcaption>Go</figcaption></i> -->
     </td>
     <td align="center">
       <img src="Images/spin jump.png" alt="Image 2" />
@@ -21,4 +22,4 @@ Here are some images:
   </tr>
 </table>
 
-<p align="right">(hiekichan: 7/6/2024 - 7/16/2024)</p>
+<p align="right"><i>(hiekichan: 7/6/2024 - 7/16/2024)</i></p>
